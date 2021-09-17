@@ -52,6 +52,7 @@ body
 {
     font-size: 20px;
     color: skyblue;
+    margin-bottom: 3px;
 }
 .grid-container .row .part-1
 {
@@ -64,7 +65,7 @@ body
 }
 .grid-container .row .part-1 .designation
 {
-    font-size: 12px;
+    font-size: 14px;
 }
 .grid-container .row .part-1 .time
 {
@@ -91,11 +92,15 @@ body
     cursor: pointer;
     background-color: skyblue;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .grid-container .row .part-3 .fa-arrow-up
 {
     color: red;
+}
+.grid-container .row .part-3 .fa-arrow-up .likes
+{
+    color: white;
 }
 .grid-container .row .part-3 .fa-arrow-down
 {
